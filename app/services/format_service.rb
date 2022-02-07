@@ -10,7 +10,6 @@ class FormatService
 
   def initialize(names)
     @names = names
-    @errors = []
   end
 
   def call
